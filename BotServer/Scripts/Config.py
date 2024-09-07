@@ -31,6 +31,8 @@ class Config(BaseModel):
     server_memory_update_interval: int = 1
 
     whitelist_command: str = 'whitelist'
+    ban_command: str = 'ban'
+    unban_command: str = 'pardon'
 
     sync_color_source: str = 'gray'
     sync_color_player: str = 'gray'
