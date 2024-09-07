@@ -1,6 +1,7 @@
 from Scripts.Config import config
 
 from .About import *
+from .Xplus import *
 
 if 'send' in config.command_enabled:
     from .Send import *
